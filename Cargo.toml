@@ -1,0 +1,15 @@
+[package]
+name = "upscale-calculator"
+version = "1.0.0"
+edition = "2021"
+description = "Dependency-free helpers for image upscaling math: scaled dimensions, the smallest upscale factor for a target size, and print sizes at a given DPI."
+license = "MIT"
+readme = "README.md"
+homepage = "https://tancky.io"
+repository = "https://github.com/tancky777/upscale-calculator-rs"
+documentation = "https://docs.rs/upscale-calculator"
+keywords = ["image", "upscale", "dimensions", "dpi", "print"]
+categories = ["multimedia::images", "mathematics"]
+exclude = [".github/"]
+
+[dependencies]
